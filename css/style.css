@@ -114,6 +114,10 @@ section h2 {
   color: #fff;
 }
 
+.header nav li.phone i {
+  margin: 0 10px;
+}
+
 @media screen and (max-width: 1199px) {
   .hamburger {
     display: block;
