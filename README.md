@@ -1,2 +1,2 @@
-# HTML-CSS-practive02
+# HTML-CSS-practice02
 レスポンシブに対応したWebサイトの作成
