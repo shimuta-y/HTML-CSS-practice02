@@ -363,6 +363,10 @@ section h2 {
   padding: 10% 0;
   position: relative;
 }
+.recruit h2 {
+  text-align: center;
+  margin: 0 auto 5% auto;
+}
 .recruit::after {
   content: "";
   background-color: #f3f3f3;
@@ -431,3 +435,132 @@ section h2 {
   }
 }
 /* /recruit================== */
+/* contact================== */
+.contact {
+  width: 100%;
+  height: 500px;
+  background: url(../images/img07.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.contact::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.contact ul {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  width: 100%;
+}
+.contact li {
+  width: 300px;
+  margin: 0 50px;
+}
+.contact li a {
+  border: 1px solid #fff;
+  font-size: 1.25rem;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 1em 0;
+}
+.contact li a:hover {
+  background: #fff;
+  color: #333;
+}
+/* /contact================== */
+/* footer================== */
+.footer section {
+  padding-top: 120px;
+}
+.footer .high {
+  border-bottom: 1px solid #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer .high h1 {
+  font-size: 1.5rem;
+}
+.footer .high ul {
+  display: flex;
+  margin-bottom: 25px;
+}
+.footer .high li a {
+  color: #333;
+  padding: 0 25px;
+}
+.footer .high li a:hover {
+  opacity: 0.6;
+}
+.footer .low {
+  padding: 25px 0 80px 0;
+  color: #333;
+}
+.footer .low span {
+  padding-left: 1em;
+}
+.footer section p {
+  color: #333;
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 1199px) {
+  .footer .high {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer section {
+    padding-top: 50px;
+  }
+  .footer .high li {
+    width: calc(100% / 3);
+    margin: 0 0 10px;
+  }
+  .footer .high li a {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer .high h1,
+  .low {
+    text-align: center;
+  }
+}
+/* /footer================== */
+/* ページTOPに戻る */
+.pagetop {
+  display: none;
+  position: fixed;
+  right: 15px;
+  bottom: 60px;
+}
+.pagetop a {
+  display: block;
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background: #7db4e6;
+  border-radius: 50%;
+  line-height: 50px;
+}
+.pagetop a i {
+  font-size: 20px;
+  color: #fff;
+  line-height: 50px;
+}
